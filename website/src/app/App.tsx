@@ -22,7 +22,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="size-full overflow-auto pt-[4px]">
+    <div className="size-full overflow-auto">
       {isMobile ? <MobileHome /> : <DesktopHome />}
     </div>
   );
