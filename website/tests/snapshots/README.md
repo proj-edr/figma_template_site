@@ -1,6 +1,6 @@
 Place your visual baseline images in this folder:
 
-- `Home-v1-desktop.png` for desktop comparison.
+- `home-v1-desktop.png` for desktop comparison.
 - `home-v1-mobile.png` for mobile comparison.
 
 Then run:

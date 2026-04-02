@@ -7,7 +7,7 @@ test.describe("Home page visual regression", () => {
     await page.goto("/");
     await page.waitForLoadState("networkidle");
 
-    await expect(page).toHaveScreenshot("Home-v1-desktop.png", {
+    await expect(page).toHaveScreenshot("home-v1-desktop.png", {
       fullPage: true,
       animations: "disabled",
       maxDiffPixelRatio: 0.01,
